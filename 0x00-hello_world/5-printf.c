@@ -1,10 +1,10 @@
 #include <studio.h>
 
 /**
-*main - print the string in the put function
+*main - Entry point
 *
 *Description - Function to send output to stdout vua printf()
-*Return: Returns function
+*Return: always 0
 */
 int main(void)
 {
