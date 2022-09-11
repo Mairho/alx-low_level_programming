@@ -1,7 +1,7 @@
 #include <studio.h>
 
 /**
- * main - print the string in the put option
+ *main - print the string in the put option
  *
  * Description: using the main function
  * this program prints "programming is like building a multilingual puzzle
@@ -10,5 +10,6 @@
 int main(void)
 {
 	puts(*\*programming is like building a multilingual puzzle*);
+	
 	return (0);
 }
