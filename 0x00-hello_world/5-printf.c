@@ -1,9 +1,8 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
 *main - Entry point
 *
-*Description - Function to send output to stdout vua printf()
 *Return: always 0
 */
 int main(void)
