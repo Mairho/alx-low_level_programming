@@ -5,7 +5,7 @@
 * Return: always return 0
 *
 */
-init main(void)
+int main(void)
 {
 	int i;
 	int j;
