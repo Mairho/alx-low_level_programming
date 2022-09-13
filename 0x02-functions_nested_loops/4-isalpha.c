@@ -2,7 +2,7 @@
 /**
 *_isalpha - main function
 *
-* @c: character to compare
+* @c: character to use
 *
 * Return: 1 if true, 0 if false
 *
