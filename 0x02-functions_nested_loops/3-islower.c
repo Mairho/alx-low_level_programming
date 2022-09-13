@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* islower - main function
+*print_islower - main function
 *
 * @c: character to compare
 *
@@ -8,7 +8,7 @@
 *
 */
 
-int _islower(int c)
+int print_islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* isalpha - main function
+*print_isalpha - main function
 *
 * @c: character to compare
 *
@@ -8,7 +8,7 @@
 *
 */
 
-int _isalpha(int c)
+int print_isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
