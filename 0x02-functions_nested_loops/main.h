@@ -21,13 +21,13 @@ void print_alphabet_x10(void);
 * @c: character to use
 * Return: 1 or 0
 */
-int islower(int c);
+int _islower(int c);
 /**
 * _isalpha - prints if character is alphabet
 * @c: character to use
 * Return: 1 or 0
 */
-int isalpha(int c);
+int _isalpha(int c);
 /**
 * print_sign - prints a sign based on n
 * @n: integer to input
