@@ -1,18 +1,15 @@
 #include "main.h"
 /**
-*test_islower - main function
-*
-* @n: Number to pass to _islower
-*
-* Return: 1 if true, 0 if false
-*
+* _islower - function to check for lower case character
+* @c: is the int that will use for the argument of the function
+* Return: return 0
 */
-
-void test_islower(int n)
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
-	return (0);
+	else
+		return (0);
 }
