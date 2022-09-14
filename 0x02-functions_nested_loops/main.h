@@ -50,13 +50,11 @@ int print_last_digit(int);
 /**
 * jack_bauer - jack bauer gooo
 *
-* Return: return jack bauer
 */
 void jack_bauer(void);
 /**
 *times_table - times this up
 *
-* Return: return a multiple
 */
 void times_table(void);
 /**
