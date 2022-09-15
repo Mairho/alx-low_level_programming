@@ -2,7 +2,7 @@
 /**
 *main - main function
 *
-* Return: return 0
+* Return: nothing
 */
 int main(void)
 {
@@ -14,6 +14,7 @@ int main(void)
 
 	printf("%.0f, ", a);
 	printf("%.0f, ", b);
+
 	while (counter < 98)
 	{
 		counter++;
