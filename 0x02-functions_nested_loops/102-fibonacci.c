@@ -15,7 +15,7 @@ int main(void)
 
 	while (counter < 50)
 	{
-		printf(" % 1d", c);
+		printf("%1d", c);
 		counter++;
 		a = b;
 		b = c;
