@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 *print_to_98 - the function prints to 98
-* @n: integer to start at 
+* @n: integer to start at
 *
 */
 void print_to_98(int n)
