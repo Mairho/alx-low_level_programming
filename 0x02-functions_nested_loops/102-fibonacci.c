@@ -18,13 +18,4 @@ int main(void)
 		printf("%1d", c);
 		counter++;
 		a = b;
-		b = c;
-		c = a + b;
-		if (counter < 50)
-		{
-			printf(", ");
-		}
-	}
-	printf("\n");
-	return (0);
 }
