@@ -11,11 +11,11 @@ int main(void)
 	long int b = a + 1;
 	long int c = a + b;
 
-	printf("%1d, %1d, ", a);
+	printf("%ld, %ld, ", a);
 
 	while (counter < 50)
 	{
-		printf("%1d", c);
+		printf("%ld", c);
 		counter++;
 		a = b;
 }
