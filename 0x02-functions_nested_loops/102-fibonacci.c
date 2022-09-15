@@ -12,6 +12,7 @@ int main(void)
 	long int c = a + b;
 
 	printf("%1d", "%1d", ", a, b);
+
 	while (counter < 50)
 	{
 		printf(" % 1d", c);
