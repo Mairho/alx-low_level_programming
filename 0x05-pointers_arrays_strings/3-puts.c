@@ -1,5 +1,5 @@
+#include <stdio.h>
 #include "main.h"
-#include "2-strlen.c"
 
 /**
 * _puts - it prints a string
@@ -13,9 +13,10 @@ void _puts(char *str)
 {
 	int i = 0;
 
-	if (*(str + i) != '\0'; i++)
+	if (*(str + i) != '\0')
+		i++;
 	{
-		_putchar(*(str + i));
+		_putchar (*(str + i));
 	}
 	_putchar('\n');
 }
