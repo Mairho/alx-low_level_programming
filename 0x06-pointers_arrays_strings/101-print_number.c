@@ -5,6 +5,7 @@
 * print_number - function that prints number
 * @n: integer to convert to character
 *
+* Return: always 0
 */
 void print_number(int n)
 {
@@ -42,4 +43,5 @@ void print_number(int n)
 		abs = abs % mult;
 		mult /= 10;
 	}
+	return (0);
 }
