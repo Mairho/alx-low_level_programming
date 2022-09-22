@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * void prototypes()
-* int prototypes()
+* int prototyoes()
 * char prototypes()
 */
 char *_strcat(char *dest, char *src);
