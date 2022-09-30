@@ -12,10 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-	int position;
-	int total;
-	int change;
-	int aux;
+	int position, total, change, aux;
 
 	int coins[] = {25, 10, 5, 2, 1};
 
@@ -45,13 +42,14 @@ int main(int argc, char *argv[])
 
 		{
 			aux = (total / coins[position]);
-
 			change += aux;
-
 			total -= coins[position] * aux;
 		}
+
 		position++;
+
 	}
-	printf("%d\n");
+
+	printf("%d\n", change);
 	return (0);
 }
