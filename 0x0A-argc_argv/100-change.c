@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "mainh"
-#include <string.h>
 
 /**
 * main - function
