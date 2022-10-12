@@ -22,8 +22,8 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	arg1 = atol(argv[1]);
-	ar2 = atol(argc[1]);
+	arg1 = atoi(argv[1]);
+	ar2 = atoi(argc[1]);
 
 	func = get_op_func(argv[2]);
 
