@@ -9,9 +9,7 @@
 */
 int main(int argc, char *argv[])
 {
-	int arg1;
-	int arg2;
-	int result;
+	int arg1, arg2, result;
 
 	char o;
 	int (*func)(int, int);
@@ -23,7 +21,7 @@ int main(int argc, char *argv[])
 	}
 
 	arg1 = atoi(argv[1]);
-	ar2 = atoi(argc[1]);
+	arg2 = atoi(argc[1]);
 
 	func = get_op_func(argv[2]);
 
