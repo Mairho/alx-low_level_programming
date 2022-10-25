@@ -10,7 +10,7 @@
 * otherwise - address of the new element
 */
 
-listint_t *add_nodeit(listint_t **head, const int n)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new;
 

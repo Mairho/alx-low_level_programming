@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* sum_listint - Calculates the sum of all the 
+* sum_listint - Calculates the sum of all
 * data (n) of a listint_t lists
 * @head: a pointer to the head of the listint_t list
 * Return: if the list is empty  - 0
